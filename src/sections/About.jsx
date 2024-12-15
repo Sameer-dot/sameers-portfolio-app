@@ -1,20 +1,8 @@
-import { useState } from 'react';
 import Globe from 'react-globe.gl';
-
 import Button from '../components/Button.jsx';
+import Info from '../components/Info.jsx';
 
 const About = () => {
-  const [hasCopied, setHasCopied] = useState(false);
-
-  const handleCopy = () => {
-    navigator.clipboard.writeText(' adrian@jsmastery.pro');
-    setHasCopied(true);
-
-    setTimeout(() => {
-      setHasCopied(false);
-    }, 2000);
-  };
-
   return (
     <section className="c-space my-20" id="about">
       <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
@@ -23,9 +11,9 @@ const About = () => {
             <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Adrian Hajdin</p>
+              <p className="grid-headtext">Hi, I’m Sameer Naveed</p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
+                With 3 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
                 and responsive websites.
               </p>
             </div>
@@ -63,7 +51,7 @@ const About = () => {
             </div>
             <div>
               <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Rjieka, Croatia and open to remote work worldwide.</p>
+              <p className="grid-subtext">I&apos;m based in Lahore, Pakistan and open to remote work worldwide.</p>
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
             </div>
           </div>
@@ -93,9 +81,32 @@ const About = () => {
 
             <div className="space-y-2">
               <p className="grid-subtext text-center">Contact me</p>
-              <div className="copy-container" onClick={handleCopy}>
-                <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">adrian@jsmastery.pro</p>
+              <div className="flex flex-wrap flex-row justify-center my-auto pt-4">
+                <Info
+                  icon={'/assets/Email.svg'}
+                  title={'Email'}
+                  text={'sameernaveed37@gmail.com'}
+                  link={'mailto:sameernaveed37@gmail.com'}
+                />
+                <Info icon={'/assets/Phone.svg'} title={'Contact'} text={'+923160451860'} link={'tel:+923160451860'} />
+                <Info
+                  icon={'/assets/github.svg'}
+                  title={'Github'}
+                  text={'github.com/Sameer-dot'}
+                  link={'https://github.com/Sameer-dot'}
+                />
+                <Info
+                  icon={'/assets/LinkedIn.svg'}
+                  title={'Linkedin'}
+                  text={'https://www.linkedin.com/in/sameer-naveed/'}
+                  link={'https://www.linkedin.com/in/sameer-naveed/'}
+                />
+                <Info
+                  icon={'/assets/instagram.svg'}
+                  title={'Instagram'}
+                  text={'@sam_eer10'}
+                  link={'https://www.instagram.com/sam_eer10/'}
+                />
               </div>
             </div>
           </div>

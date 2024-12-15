@@ -11,13 +11,13 @@ export const navLinks = [
   },
   {
     id: 3,
-    name: 'Work',
-    href: '#work',
+    name: 'Skills',
+    href: '#skills',
   },
   {
     id: 4,
-    name: 'Contact',
-    href: '#contact',
+    name: 'Work',
+    href: '#work',
   },
 ];
 
@@ -58,13 +58,13 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    title: 'Easybar - Marketplace for Rebars',
+    desc: 'Easybar serves as a marketplace that allows buyers to design and place orders for iron bars, while suppliers receive and print these orders for their automated machines.',
     subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-    texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+      'Built as a unique Software-as-a-Service platform with React, Bootstrap, TypeScript, Konva.js, and Django, EasyBar streamlines iron order preparation for manufacturers, ensuring precision and efficiency.',
+    href: 'https://app.easybar.co.il/',
+    texture: 'textures/project/easybar.png',
+    logo: '/assets/logos/easybar-logo.png',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
@@ -79,66 +79,39 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Redux',
+        path: 'assets/langs/redux.png',
       },
       {
         id: 3,
+        name: 'BootstrapCSS',
+        path: 'assets/langs/bootstrap.png',
+      },
+      {
+        id: 4,
         name: 'TypeScript',
         path: '/assets/typescript.png',
       },
       {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        id: 5,
+        name: 'Python Django',
+        path: '/assets/langs/django.svg',
+      },
+      {
+        id: 6,
+        name: 'PostrgreSQL',
+        path: '/assets/langs/postgres.png',
       },
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'LFGO - Web3/Token Management Platform',
+    desc: 'An innovative Web3 platform designed to simplify token creation and management. It enables users to build and launch custom tokens, trade them in a marketplace, and perform actions like locking, unlocking, and transferring tokens, delivering a seamless experience for both creators and traders.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-    texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
-    logoStyle: {
-      backgroundColor: '#13202F',
-      border: '0.2px solid #17293E',
-      boxShadow: '0px 0px 60px 0px #2F6DB54D',
-    },
-    spotlight: '/assets/spotlight2.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-    subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-    texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
+      'With a focus on efficiency, LFGO leverages cutting-edge technologies like Next.js, Golang with Gin, MySQL, Sockets, and Solidity to deliver a seamless Web3 experience, streamlining token creation, management, and trading processes.',
+    href: 'https://www.lfgo.us/',
+    texture: '/textures/project/lfgoo.png',
+    logo: '/assets/logos/lfgo-white.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
       background:
@@ -150,34 +123,91 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Next.js',
+        path: '/assets/langs/next.svg',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'BootstrapCSS',
+        path: 'assets/langs/bootstrap.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'Redux',
+        path: 'assets/langs/redux.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Solidity',
+        path: '/assets/langs/solidity.png',
+      },
+      {
+        id: 5,
+        name: 'Golang',
+        path: '/assets/langs/golang.png',
+      },
+      {
+        id: 6,
+        name: 'Aws',
+        path: '/assets/langs/aws.png',
+      },
+      {
+        id: 7,
+        name: 'Docker',
+        path: '/assets/langs/docker.png',
+      },
+      {
+        id: 8,
+        name: 'MySql',
+        path: '/assets/langs/mysql.png',
       },
     ],
   },
+  // {
+  //   title: 'Sunfox Solar - Real-Time Google Docs Clone',
+  //   desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+  //   subdesc:
+  //     'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
+  //   href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+  //   texture: '/textures/project/sunfox.png',
+  //   logo: '/assets/project-logo2.png',
+  //   logoStyle: {
+  //     backgroundColor: '#13202F',
+  //     border: '0.2px solid #17293E',
+  //     boxShadow: '0px 0px 60px 0px #2F6DB54D',
+  //   },
+  //   spotlight: '/assets/spotlight2.png',
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: 'React.js',
+  //       path: '/assets/react.svg',
+  //     },
+  //     {
+  //       id: 2,
+  //       name: 'TailwindCSS',
+  //       path: 'assets/tailwindcss.png',
+  //     },
+  //     {
+  //       id: 3,
+  //       name: 'TypeScript',
+  //       path: '/assets/typescript.png',
+  //     },
+  //     {
+  //       id: 4,
+  //       name: 'Framer Motion',
+  //       path: '/assets/framer.png',
+  //     },
+  //   ],
+  // },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+    title: 'Finance - Personal Finance Management App',
+    desc: 'Take control of your money and plan for a better future. Finance helps you track your spending, set budgets, and grow your savings effortlessly—all in one intuitive app.',
     subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-    texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
+      'Built with Next.js, TypeScript, Prisma, PostgreSQL, React Query, Framer Motion, shadcn/ui, and Redis, Finance ensures a smooth and secure personal finance management experience, tailored to meet the needs of modern users.',
+    href: 'https://personal-finance-app-hazel.vercel.app/login',
+    texture: '/textures/project/finance.png',
+    logo: '/assets/logos/finance.png',
     logoStyle: {
       backgroundColor: '#0E1F38',
       border: '0.2px solid #0E2D58',
@@ -187,8 +217,8 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Next.js',
+        path: '/assets/langs/next.svg',
       },
       {
         id: 2,
@@ -205,16 +235,31 @@ export const myProjects = [
         name: 'Framer Motion',
         path: '/assets/framer.png',
       },
+      {
+        id: 5,
+        name: 'PostgreSQL',
+        path: '/assets/langs/postgres.png',
+      },
+      {
+        id: 6,
+        name: 'Prisma',
+        path: '/assets/langs/prisma.png',
+      },
+      {
+        id: 7,
+        name: 'Redis',
+        path: '/assets/langs/redis.png',
+      },
     ],
   },
   {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+    title: 'Knaban - Intuitive Kanban Board App',
+    desc: 'Kanban is a powerful Software-as-a-Service application designed to simplify task management and enhance productivity. With features like intuitive drag-and-drop Kanban boards, real-time collaboration, and progress tracking, Kanban helps teams and individuals stay organized and achieve their goals effortlessly.',
     subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
+      'Built with React, Next.js, MongoDB, Prisma, and Framer Motion, Kanban combines modern technologies with a user-first design. Its intuitive Kanban board helps you streamline workflows, boost productivity, and collaborate effortlessly, making it ideal for personal or professional task management.',
+    href: 'https://kanban-task-management-kappa.vercel.app/',
+    texture: '/textures/project/kanban.png',
+    logo: '/assets/logos/kanban.png',
     logoStyle: {
       backgroundColor: '#1C1A43',
       border: '0.2px solid #252262',
@@ -224,8 +269,8 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Next.js',
+        path: '/assets/langs/next.svg',
       },
       {
         id: 2,
@@ -234,13 +279,18 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'Framer Motion',
+        path: '/assets/framer.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'MySQL',
+        path: '/assets/langs/mysql.png',
+      },
+      {
+        id: 5,
+        name: 'Prisma',
+        path: '/assets/langs/prisma.png',
       },
     ],
   },
@@ -260,29 +310,48 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
+    name: 'Arithmiks',
+    pos: 'Senior Software Engineer',
     duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
-    animation: 'victory',
+    title:
+      'At Arithmiks, I developed and delivered custom software solutions for startups, working across frontend, full stack, and blockchain technologies. I managed project workflows, coordinated feature planning, and ensured high-quality results through collaboration and technical leadership.',
+    icon: '/assets/arithmiks.svg',
+    subExperiences: [
+      {
+        id: 1,
+        name: 'LFGO',
+        pos: 'Lead Software Engineer',
+        duration: '2024 - Present',
+        title:
+          'At LFGO, I developed and integrated both frontend and backend solutions, including blockchain functionalities. I played a key role in managing project tickets, planning features, and ensuring high-quality code through PR reviews, while also mentoring junior developers.',
+        icon: '/assets/logos/lfgo-green.png',
+      },
+      // {
+      //   id: 2,
+      //   name: 'Sunfox Solar',
+      //   pos: 'Web Developer',
+      //   duration: '2023 - 2024',
+      //   title: 'Collaborated on frontend development and design iteration through Figma.',
+      //   icon: '/assets/sunfox-solar.svg',
+      // },
+      {
+        id: 2,
+        name: 'Easybar',
+        pos: 'Software Engineer',
+        duration: '2022 - 2024',
+        title:
+          'At EasyBar, I contributed from the early stages of development, primarily focusing on frontend application development and implementing mathematical algorithms. I also worked on CI/CD pipelines and deployments, ensuring smooth integration and delivery of updates to the platform.',
+        icon: '/assets/logos/easybar-logo.png',
+      },
+    ],
   },
   {
     id: 2,
-    name: 'Figma',
+    name: 'Fiverr',
     pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
-    animation: 'clapping',
-  },
-  {
-    id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
-    animation: 'salute',
+    duration: '2021 - 2022',
+    title:
+      'At fiverr, I developed custom dashboards and web applications for clients, focusing on delivering scalable and user-friendly solutions.',
+    icon: '/assets/fiv.png',
   },
 ];
