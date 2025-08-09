@@ -5,7 +5,7 @@ const Footer = () => {
         <a href="https://github.com/Sameer-dot" target="_blank" rel="noopener noreferrer" className="social-icon">
           <img src="/assets/github.svg" alt="GitHub" className="w-1/2 h-1/2" />
         </a>
-        <a
+        {/* <a
           href="https://www.linkedin.com/in/sameer-naveed/"
           target="_blank"
           rel="noopener noreferrer"
@@ -18,7 +18,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="social-icon">
           <img src="/assets/instagram.svg" alt="Instagram" className="w-1/2 h-1/2" />
-        </a>
+        </a> */}
       </div>
 
       <p className="text-white-500">© 2024 Sameer Naveed. All rights reserved.</p>

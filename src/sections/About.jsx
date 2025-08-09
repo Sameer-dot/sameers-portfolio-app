@@ -1,6 +1,6 @@
 import Globe from 'react-globe.gl';
 import Button from '../components/Button.jsx';
-import Info from '../components/Info.jsx';
+import FunFact from '../components/FunFact.jsx';
 
 const About = () => {
   return (
@@ -13,8 +13,10 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Sameer Naveed</p>
               <p className="grid-subtext">
-                With 3 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+                With 3+ years of experience, I specialize in building scalable web applications for international
+                clients that drive real business results. I&apos;ve helped scale platforms to $15K+ MRR and generate
+                millions in business value. I don&apos;t just write code – I build solutions that transform businesses
+                and create lasting value worldwide.
               </p>
             </div>
           </div>
@@ -27,8 +29,10 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
-                applications
+                I specialize in a comprehensive range of modern technologies that enable me to deliver robust, scalable
+                solutions across the entire development spectrum. From responsive React frontends and powerful Python
+                backends to cloud infrastructure and AI integration, I leverage the right tools for each project&apos;s
+                unique requirements, ensuring optimal performance and future-ready architecture.
               </p>
             </div>
           </div>
@@ -65,7 +69,13 @@ const About = () => {
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
                 I love solving problems and building things through code. Programming isn&apos;t just my
-                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+                profession—it&apos;s my passion. I enjoy exploring new technologies, experimenting with different
+                frameworks, and constantly enhancing my skills. What drives me most is the satisfaction of turning
+                complex problems into elegant solutions. Whether I&apos;m building responsive user interfaces or
+                architecting backend systems, I find genuine excitement in creating digital experiences that make a real
+                impact. I&apos;m particularly drawn to full-stack development because it allows me to see projects from
+                conception to completion. Every challenge teaches me something new, and that continuous learning keeps
+                my passion for coding alive.
               </p>
             </div>
           </div>
@@ -80,33 +90,14 @@ const About = () => {
             />
 
             <div className="space-y-2">
-              <p className="grid-subtext text-center">Contact me</p>
+              <p className="grid-subtext text-center">Fun Facts About Me</p>
               <div className="flex flex-wrap flex-row justify-center my-auto pt-4">
-                <Info
-                  icon={'/assets/Email.svg'}
-                  title={'Email'}
-                  text={'sameernaveed37@gmail.com'}
-                  link={'mailto:sameernaveed37@gmail.com'}
-                />
-                <Info icon={'/assets/Phone.svg'} title={'Contact'} text={'+923160451860'} link={'tel:+923160451860'} />
-                <Info
-                  icon={'/assets/github.svg'}
-                  title={'Github'}
-                  text={'github.com/Sameer-dot'}
-                  link={'https://github.com/Sameer-dot'}
-                />
-                <Info
-                  icon={'/assets/LinkedIn.svg'}
-                  title={'Linkedin'}
-                  text={'https://www.linkedin.com/in/sameer-naveed/'}
-                  link={'https://www.linkedin.com/in/sameer-naveed/'}
-                />
-                <Info
-                  icon={'/assets/instagram.svg'}
-                  title={'Instagram'}
-                  text={'@sam_eer10'}
-                  link={'https://www.instagram.com/sam_eer10/'}
-                />
+                <FunFact icon={'/assets/coffee.svg'} title={'Coffee Addict'} text={'2+ cups daily keep me coding'} />
+                <FunFact icon={'/assets/code.svg'} title={'Night Owl'} text={'Best code happens at 2 AM'} />
+                <FunFact icon={'/assets/music.svg'} title={'Music Lover'} text={'Rock & Jazz fan'} />
+                <FunFact icon={'/assets/travel.svg'} title={'Explorer'} text={'3 countries & counting'} />
+                <FunFact icon={'/assets/game.svg'} title={'Gamer'} text={'Strategy games enthusiast'} />
+                <FunFact icon={'/assets/book.svg'} title={'Bookworm'} text={'5+ tech books read'} />
               </div>
             </div>
           </div>
